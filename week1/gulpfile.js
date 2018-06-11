@@ -58,4 +58,5 @@ gulp.task('uglify', function() {
         .pipe(gulp.dest('build/js'))
 });
 
-gulp.task('default', ['server']);
+
+gulp.task('default', ['server', 'devcss', 'uglify']);
