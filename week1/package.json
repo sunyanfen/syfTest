@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "htmlmin": "^0.0.7"
+  }
+}
